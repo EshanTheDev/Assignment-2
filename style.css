@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&display=swap');
+
+
+.nav-container{
+  
+display: flex;
+    min-height: 130px;
+    align-items: center;
+
+  padding-left: 180px;
+}
+
+
+.logo-container{
+ 
+    width: 50%;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+ 
+
+}
+.Span
+
+{color: #FF42A5;
+font-size: 2.5rem;}
+
+
+.logo-container img{
+    height: 25px;
+    margin-top: 12px;
+
+}
+.logo-container h2 span{
+    font-size: 40px;
+}
+.logo-container h2{
+    font-size: 35px;
+}
+
+
+.nav-item-container{
+  gap: 25px;
+    display: flex;
+    font-size: 1.5rem;
+  list-style: none;
+  align-items: center;
+}
+
+
+.nav-button{
+    border-radius: 5px;
+background: rgba(11, 2, 35, 0.10);
+width: 230px;
+padding: 10px;
+
+}
+
+/* nav end  */
+
+
+.banner{
+    width:100%;
+height: 700px;
+
+display: flex;
+gap: 10px;
+
+
+}
+
+.banner-left {
+   
+    height: 700px; 
+    width : 50%;
+     background-image: url(./B8A2-Gamer-Zone/images/Group\ 14.png);}
+
+.banner-left h1{
+    text-align: center;
+
+font-size: 5.5rem;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+text-transform: uppercase;
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+
+
+.banner-left h2{
+
+    padding-top: 150px;
+    color: #0B0223;
+text-align: center;
+
+font-size: 3rem;
+
+font-weight: 600;
+
+text-transform: uppercase;
+}
+.banner-left p{
+    color: #534C64;
+padding-left: 180px;
+font-size: 1.25rem;
+justify-content: center;
+font-weight: 500;
+gap: 20px;
+margin-top: 10px;
+
+}
+.btn{
+margin-left: 180px;
+margin-top: 30px;
+}
+
+.btn-1{border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+ 
+padding: 10px 25px;
+
+
+
+}
+
+.btn-2{border-radius: 48px;
+ 
+    background: #4EC5F7;
+  
+padding: 10px 25px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* mobile responsive  */
+
+@media screen and (max-width:576px) {
+    .nav-container{
+  
+       flex-direction: column;
+           margin-right: 100px;
+            align-items: center;
+        
+      
+        }
+        .nav-item-container{
+           margin-top: 30px;
+              flex-direction: column;
+              font-size: 1.5rem;
+            align-items: center;
+          }
+
+          .nav-button{
+            border-radius: 5px;
+        background: rgba(11, 2, 35, 0.10);
+        width: 230px;
+        padding: 10px;
+        text-align: center;
+        
+        }
+
+/* banner section  */
+
+.banner{
+    flex-direction: column-reverse;
+    height: auto;
+}
+.banner-right img{
+    width: 100%;
+    padding: 10px 20px;
+}
+
+.banner-left{
+    width: 100%;
+}
+
+   
+
+
+
+
+/* Tablet responsive  */
+
+
+@media screen and (min-width:576px) and (max-width:960px) {
+
+
+    .nav-container{
+  
+        flex-direction: column;
+            
+             align-items: center;
+         
+       
+         }
+
+         .nav-item-container{
+            margin-top: 30px;
+               flex-direction: column;
+               font-size: 1.5rem;
+             align-items: center;
+           }
+
+           .nav-button{
+            border-radius: 5px;
+        background: rgba(11, 2, 35, 0.10);
+        width: 230px;
+        padding: 10px;
+        text-align: center;
+        
+        }
+} 

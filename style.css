@@ -177,14 +177,34 @@ background-clip: text;
 
  }
 
+ 
+
+
+
+
+
+
 .Games-item{
     display: flex;
     justify-content: space-between;
     margin: 50px 30px;
+
 }
 .item-1{
     width:342px;
+
 }
+
+.item-1 img:hover{
+
+ cursor: pointer;
+background-image:url(./B8A2-Gamer-Zone/images/play-button\ 1.png)
+    background-color: #534C64;
+
+}
+
+
+
 .img-title{
 font-size:1.5rem;
 
@@ -261,43 +281,63 @@ background-clip: text;
     align-items: center;
 
 }
-
+.icon-section:hover{
+    border: 1px solid orange;
+    border-radius: 10px;
+}
 
 /* footer  */
-
-.Footer{
-    background: #0B0223;
-    width: 1450px;
-height: 400px;
-margin-top: 30px;
-
-}
-
-.footer-img{
+.footer{
+    height: 400px;
+    background-color: #0B0223; 
+    margin-top: 30px}
+    .footer-logo{
     display: flex;
+    font-size: 40px;
+    color: white;
     justify-content: center;
+    align-items: center;
     gap: 20px;
-    padding-top: 60px;
-
+    padding-top: 50px;
+}
+  .footer-logo img{
+    width: 80px;
 }
 
-.footer-img h2{
-    color: white;}
+.footer-items{
+    color: white;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    padding-top: 30px;
+    font-size: 1.25rem;
+}
 
+.footer-icon{
+display: flex;
+justify-content: center;
+align-items: center;margin-top: 30px;
 
+gap: 30px;
+}
 
-    .footer-paragraph{
+.footer-items-2{
+    color: white;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    padding-top: 30px;
+    font-size: 1.25rem;
+}
 
-        text-align: center;
-        color: white;
-    }
-
-
-
-
-
-
-
+.footer p{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    color: white; 
+    margin-top: 20PX;
+}
 
 
 
@@ -417,6 +457,9 @@ margin-bottom: 40px;
   grid-template-columns:repeat(2,1fr);
   
 }
+.footer[
+    padding: 0 30PX;
+]
 
 }
 
@@ -525,6 +568,8 @@ margin-bottom: 40px;
             grid-template-columns:repeat(4,1fr);
             
           }
+
+       
 }
 
 
